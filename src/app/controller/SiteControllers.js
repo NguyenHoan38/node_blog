@@ -5,9 +5,7 @@ class SiteControllers {
     }
     //get/search
     search (req, res) {
-        alert(2)
-        console.log('fafafghdjhdhhdhhddhdhdhdhgsgsgsgsgsgggggggggggggggggggggg');
-        res.render('search');
+      res.render('search');
     }
 }
 module.exports = new SiteControllers
